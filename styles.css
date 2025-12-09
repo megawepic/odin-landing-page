@@ -22,6 +22,7 @@ body{
     background-color: #1f2937;
     color: #e5e7eb;
     padding: 24px 54px;
+    gap: 54px;
 }
 
 .subheader{
@@ -69,6 +70,7 @@ body{
 .information{
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 24px;
 }
 
@@ -81,12 +83,12 @@ body{
 }
 
 .ending{
-    margin: 20px;
+    margin: 48px 96px;
     background-color: #3882f6;
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    padding: 30px;
+    padding: 48px;
     color: white;
 }
 
@@ -108,7 +110,7 @@ body{
 ul{
     display: flex;
     list-style-type: none;
-    gap: 12px;
+    gap: 24px;
     margin: 0;
     padding: 0;
 }
@@ -116,4 +118,14 @@ ul{
 a{
     text-decoration: none;
     color: #e5e7eb;
+}
+
+img{
+    width: 300px;
+    height: 200px;
+}
+
+.main-info img{
+    width: 500px;
+    height: 300px;
 }
